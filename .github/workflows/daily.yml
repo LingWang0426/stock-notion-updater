@@ -28,4 +28,4 @@ jobs:
           DATABASE_ID: ${{ secrets.DATABASE_ID }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python daily_update_notion.py
+          python daily_update_notion_v2.py
